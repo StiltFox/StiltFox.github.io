@@ -6,4 +6,5 @@ html {
     --leggie-white: #fff;
     background-color: var(--leggie-black);
     background-size: cover;
+    color:var(--leggie-white);
 }
