@@ -1,0 +1,9 @@
+html {
+    color: #ffffff;
+    --leggie-orange: #FF8A00;
+    --leggie-brown: #381E00;
+    --patron-purple: #8c1aff;
+    --default-text-color: white;
+    background-size: cover;
+    background-color: black;
+}
