@@ -15,7 +15,7 @@ ul {
 }
 
 li:before {
-    content: "&#11212;";
+    content: "\2BCC";
     padding-right: 1rem;
 
     text-shadow:
