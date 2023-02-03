@@ -15,7 +15,7 @@ ul {
 }
 
 li:before {
-    content: "✦";
+    content: "&#11212;";
     padding-right: 1rem;
 
     text-shadow:
