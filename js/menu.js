@@ -5,7 +5,7 @@ var menu =
     <a class="stiltfox-button" href="/pages/MissionStatement.html">About</a>
     <a class="stiltfox-button" href="/pages/Products.html">Products</a>
     <div style="margin-left:auto;"></div>
-    <a class="stiltfox-button stiltfox-support-button">Support Stilt Fox™</a>
+    <a class="stiltfox-button stiltfox-support-button">Support Stilt Fox&trade;</a>
 </div>
 </div>`;
 
