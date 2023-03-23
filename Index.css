@@ -182,3 +182,13 @@ body{
     max-height: 10rem;
     margin-right: 1rem;
 }
+
+#index-center-display {
+    height:90%;
+}
+
+#Stilt-Fox-index-logo {
+    height:auto;
+    width: auto;
+    display: block;
+}
