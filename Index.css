@@ -1,0 +1,184 @@
+html {
+    color: #ffffff;
+    --leggie-orange: #FF8A00;
+    --leggie-brown: #381E00;
+    --patron-purple: #8c1aff;
+    --default-text-color: white;
+    background-size: cover;
+    background-color: black;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li:before {
+    content: "\2726";
+    padding-right: 1rem;
+
+    text-shadow:
+        -0.2rem -0.2rem 1rem #fff,
+        0.2rem 0.2rem 1rem #fff,
+        0 0 2rem var(--leggie-orange),
+        0 0 4rem var(--leggie-orange),
+        0 0 6rem var(--leggie-orange),
+        0 0 8rem var(--leggie-orange),
+        0 0 10rem var(--leggie-orange);
+}
+
+li ul li::before{
+    text-shadow:
+    -0.2rem -0.2rem 1rem #fff,
+    0.2rem 0.2rem 1rem #fff,
+    0 0 2rem var(--patron-purple),
+    0 0 4rem var(--patron-purple),
+    0 0 6rem var(--patron-purple),
+    0 0 8rem var(--patron-purple),
+    0 0 10rem var(--patron-purple);
+}
+
+h1 {
+    padding: 4px;
+    text-align: center;
+    box-shadow:
+        inset 0 0 .5rem #fff,
+        inset 0 0 2rem var(--leggie-orange),
+        inset 0 0 4rem var(--leggie-orange);
+}
+
+h2 {
+    text-shadow:
+        -0.2rem -0.2rem 1rem #fff,
+        0.2rem 0.2rem 1rem #fff,
+        0 0 2rem var(--leggie-orange),
+        0 0 4rem var(--leggie-orange),
+        0 0 6rem var(--leggie-orange),
+        0 0 8rem var(--leggie-orange),
+        0 0 10rem var(--leggie-orange);
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: solid .1rem white;
+    margin-bottom: 2rem;
+    background-image: linear-gradient(to top, var(--leggie-brown), transparent, transparent, transparent), linear-gradient(to top, var(--leggie-brown), transparent);
+
+    /* box-shadow:
+        inset 0 0 .5rem #fff,
+        inset 0 0 2rem var(--leggie-brown),
+        inset 0 0 4rem var(--leggie-brown); */
+}
+
+.menu-button-container {
+    width: 95%;
+    display: flex;
+    margin: auto;
+}
+
+body{
+    margin-top: 7rem;
+}
+
+.stiltfox-button {
+    border: solid .1rem white;
+    border-radius: .2rem;
+    padding: 4px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    margin: .2rem;
+    color: black;
+
+    box-shadow:
+        inset 0 0 .5rem #fff,
+        inset 0 0 2rem var(--default-text-color),
+        inset 0 0 4rem var(--default-text-color);
+}
+
+.stiltfox-button:visited {
+    text-decoration: none;
+}
+
+.stiltfox-button:hover {
+    text-decoration: none;
+
+    box-shadow:
+        0 0 .5rem #fff,
+        inset 0 0 .5rem #fff,
+        0 0 2rem var(--default-text-color),
+        inset 0 0 2rem var(--default-text-color),
+        0 0 4rem var(--default-text-color),
+        inset 0 0 4rem var(--default-text-color);
+}
+
+.stiltfox-support-button {
+    color: var(--default-text-color);
+    box-shadow:
+        inset 0 0 .5rem #fff,
+        inset 0 0 2rem var(--patron-purple),
+        inset 0 0 4rem var(--patron-purple);
+}
+
+.stiltfox-support-button:hover {
+    box-shadow:
+        0 0 .5rem #fff,
+        inset 0 0 .5rem #fff,
+        0 0 2rem var(--patron-purple),
+        inset 0 0 2rem var(--patron-purple),
+        0 0 4rem var(--patron-purple),
+        inset 0 0 4rem var(--patron-purple);
+}
+
+.product-entry{
+    border-top: solid .2rem var(--default-text-color);
+    border-bottom: solid .2rem var(--default-text-color);
+    display: flex;
+    padding: .5rem;
+    text-decoration: none;
+    color: var(--default-text-color);
+}
+
+.product-entry:hover {
+    cursor: pointer;
+    color: var(--default-text-color);
+    border-color: white;
+    text-decoration: none;
+    box-shadow:
+        0 0 .5rem #fff,
+        inset 0 0 .5rem #fff,
+        0 0 2rem var(--leggie-orange),
+        inset 0 0 2rem var(--leggie-orange),
+        0 0 4rem var(--leggie-orange),
+        inset 0 0 4rem var(--leggie-orange);
+}
+
+.product-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-info-item {
+    padding-right: 5rem;
+}
+
+.product-image {
+    min-width: 10rem;
+    min-height: 10rem;
+    max-width: 10rem;
+    max-height: 10rem;
+    margin-right: 1rem;
+}
