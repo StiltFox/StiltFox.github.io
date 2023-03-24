@@ -4,6 +4,7 @@ var menu =
     <a class="stiltfox-button" href="/index.html">Home</a>
     <a class="stiltfox-button" href="/pages/MissionStatement.html">About</a>
     <a class="stiltfox-button" href="/pages/Products.html">Products</a>
+    <a class="stiltfox-button" href="/pages/Contact.html">Contact</a>
     <div style="margin-left:auto;"></div>
     <a class="stiltfox-button stiltfox-support-button" href="https://www.patreon.com/Stilt_Fox" target="_blank">Support Stilt Fox&trade;</a>
 </div>

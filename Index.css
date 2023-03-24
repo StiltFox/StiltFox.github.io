@@ -59,6 +59,10 @@ h2 {
         0 0 10rem var(--leggie-orange);
 }
 
+a {
+    color: var(--leggie-orange);
+}
+
 #content {
     width: 100%;
     height: 100%;
@@ -183,6 +187,30 @@ body{
     margin-right: 1rem;
 }
 
+.unknown-product {
+    min-width: 10rem;
+    min-height: 10rem;
+    max-width: 10rem;
+    max-height: 10rem;
+    margin-right: 1rem;
+    text-align: center;
+    font-size: 8rem;
+
+    box-shadow:
+        inset 0 0 .5rem #fff,
+        inset 0 0 2rem var(--leggie-orange),
+        inset 0 0 4rem var(--leggie-orange);
+
+    text-shadow:
+        -0.2rem -0.2rem 1rem #fff,
+        0.2rem 0.2rem 1rem #fff,
+        0 0 2rem var(--leggie-orange),
+        0 0 4rem var(--leggie-orange),
+        0 0 6rem var(--leggie-orange),
+        0 0 8rem var(--leggie-orange),
+        0 0 10rem var(--leggie-orange);
+}
+
 #index-center-display {
     height:90%;
 }
@@ -191,4 +219,9 @@ body{
     height:auto;
     width: auto;
     display: block;
+}
+
+.main_leggie {
+    height: 100%;
+    width: 100%;
 }
